@@ -1,50 +1,58 @@
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- Populated by /setup (Path A). No formal assessment (PI/DISC/etc.) was provided. -->
+<!-- The traits below are INFERRED from the LinkedIn About section. Review before relying on them. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Alejandro presents as a **collaborative technical leader** pattern: driven by continuous improvement, curiosity, and team growth. No formal behavioral assessment (PI, DISC, Myers-Briggs, StrengthsFinder) is on record — replace this section if you complete one.
 
 ## Core Behavioral Drives
 
+<!-- No formal assessment on record. Complete this table if you take a PI/DISC/etc. -->
 | Drive | Level | Meaning |
 |-------|-------|---------|
 | [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
 | [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
 
-## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+## Strongest Behavioral Traits
+*[Inferred from LinkedIn About - review before relying on this]*
+- **Leadership vision:** proactive, leads teams toward shared goals.
+- **Continuous improvement:** focused on making teams and products better over time.
+- **Curiosity / lifelong learning:** always learning, researching, and encouraging the team to learn.
+- **Collaboration:** believes the best way to reach team goals is through collaboration.
+- **Problem-solving orientation:** frames work around solving problems, not just executing tasks.
+- **Adaptability:** applies Agile Manifesto principles, adapting to each project, client, and context.
 
-## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+## How Alejandro Works Best
+*[Inferred from LinkedIn About - review before relying on this]*
+- Collaborative teams where knowledge is shared and people are encouraged to grow.
+- Agile environments (Scrum/Kanban) that adapt to the project and client.
+- Roles that combine technical depth with mentoring and team building.
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+<!-- Not derivable from LinkedIn. Add self-assessed growth areas here. -->
+- [AREA_1]: [HOW_TO_FRAME_IT_POSITIVELY]
 
 ## Mapping to Job Posting Language
 
-When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+When a job posting mentions these, it's a **strong behavioral fit**:
+- Technical leadership, mentoring, team building
+- Continuous improvement, engineering excellence, quality culture
+- Agile / Scrum / Kanban, collaborative teams
+- Architecture ownership, cross-functional collaboration
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- Rigid top-down / waterfall processes with no room to improve them
+- Pure individual-contributor role with no team interaction or mentoring
+- Maintenance-only work with no space for innovation or research
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+*[Inferred - review before relying on this]*
+- Works well with autonomy and room to research and innovate.
+- Values leadership that supports team health and professional development.
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** lead with technical leadership + continuous improvement, backed by the 40+ dev leadership at Flux IT.
+- **CV:** emphasize architecture ownership, team leadership scale, and quality culture.
+- **Interviews:** use the STAR candidates in `07-interview-prep.md` (team leadership, microservices, iOS homebanking).
+- **Don't overstate:** no formal behavioral assessment exists — do not claim a specific profile type until one is completed.

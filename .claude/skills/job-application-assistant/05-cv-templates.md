@@ -105,12 +105,15 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+<!-- Populated by /setup (Path A) from the LinkedIn profile. Tailor per posting. -->
+**For Solutions / Software Architect roles:**
+> Solutions Architect with 18+ years building enterprise software across backend, web, and native mobile. I design architectures that hold up in production, drive engineering quality across teams, and have led delivery for large financial clients including Banco Galicia and OSDE. I bring deep Java and iOS expertise, cloud experience on Google Cloud and OpenShift, and a track record of turning research and new ideas into shipped software.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Technical Lead / Engineering Manager roles:**
+> Technical leader who has led 40+ developers across Java backend, native mobile, and React web. I define career paths, raise quality standards, and build teams that keep learning. My background spans hands-on architecture and Agile delivery (Scrum/Kanban) for enterprise banking clients, combining technical depth with the people side of engineering leadership.
+
+**For iOS / Mobile Lead roles:**
+> iOS engineer and mobile lead who built and led development of native banking apps in Swift, including homebanking for Banco Galicia (project Galaxia). I have coordinated iOS teams, owned mobile architecture and delivery guidelines, and shipped consumer apps from scratch. Comfortable across the mobile stack: Swift, REST/OData integration, omnichannel, and hybrid mobile with Ionic.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

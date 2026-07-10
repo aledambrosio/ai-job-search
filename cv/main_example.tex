@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Alejandro D'Ambrosio
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Alejandro D'Ambrosio - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Alejandro}{D'Ambrosio}
+\address{Ciudad Autónoma de Buenos Aires, Argentina}{}{}
+\phone[mobile]{[+54 ... add your phone]}
+\email{alejandro.dambrosio@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/aledambrosio}{LinkedIn}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Solutions Architect and technical leader with 18+ years building enterprise software across backend, web, and native mobile. I design production-grade architectures, raise engineering quality across teams, and have led delivery for large financial clients including Banco Galicia and OSDE. Deep expertise in Java and iOS/Swift, with cloud experience on Google Cloud and OpenShift, and a track record of leading 40+ developers while staying hands-on with research and PoCs.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Architecture \& Leadership}: Solution and software architecture (backend, web, native/hybrid mobile); technical leadership of teams up to 40+ developers; mentoring and career-path definition.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Backend \& Enterprise Java}: Java, Spring, Spring Boot, Hibernate, Struts, Drools, OSWorkflow, JUnit; microservices on OpenShift.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Mobile}: Native iOS in Swift (banking/homebanking apps), REST/OData integration, omnichannel; hybrid mobile with Ionic.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Web \& Cloud}: React, Node.js/Express, JavaScript/jQuery; Google Cloud (Cloud Run, Firebase, networking); CI/CD and quality tooling.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Data \& Agile}: DB2 and relational SQL, PL/SQL, MongoDB, Firebase; Scrum and Kanban delivery.
 
 \end{itemize}
 
@@ -76,32 +75,66 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Flux IT: Solutions Architect ---
+\item{\cventry{2023--Present}{Solutions Architect}{Flux IT}{Buenos Aires, Argentina}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Solution architecture across web, backend, and native/hybrid mobile for enterprise clients.
+    \item Drive architecture, research, innovation, team building, and software quality.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Flux IT: Technical Leader ---
+\item{\cventry{2021--2023}{Technical Leader}{Flux IT}{Buenos Aires, Argentina}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Led 40+ developers across Java backend, native iOS/Android, and React web for a single enterprise client.
+    \item Set quality standards and good engineering practices; defined developers' career paths.
+    \item Supported client team leaders on team health, technical innovation, and new ideas.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Flux IT: Team Technical Leader ---
+\item{\cventry{2019--2021}{Team Technical Leader}{Flux IT (Banco Galicia)}{Buenos Aires, Argentina}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Led a 4-developer team building microservices for a new architecture of the bank's customer-service channels.
+    \item Stack: OpenShift, Java, Spring Boot.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Flux IT: iOS Tech Lead / Software IT Architect ---
+\item{\cventry{2016--2019}{iOS Tech Lead \& Software IT Architect}{Flux IT (Banco Galicia)}{Buenos Aires, Argentina}{}{\vspace{1pt}
+\begin{itemize}
+    \item Technical reference for the iOS team building the Banco Galicia homebanking app (project Galaxia).
+    \item Owned mobile architecture components and development guidelines; coordinated a 4-person iOS team.
+    \item Stack: Swift, storyboards, REST web services, OData, omnichannel.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Flux IT: Java Developer ---
+\item{\cventry{2011--2016}{Java Developer}{Flux IT (OSDE)}{Buenos Aires, Argentina}{}{\vspace{1pt}
+\begin{itemize}
+    \item Enterprise Java web and BPM development for OSDE (healthcare): new developments, performance analysis, and database tuning.
+    \item Stack: OSWorkflow, Drools, Struts, Spring, Hibernate, ServiceMix, DB2.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Globant ---
+\item{\cventry{2008--2010}{Software Engineer}{Globant}{Buenos Aires, Argentina}{}{\vspace{1pt}
+\begin{itemize}
+    \item Software engineering for Gilbarco Veeder-Root (fuel dispenser / point-of-sale simulators) and Electronic Arts (BattleForge portal).
+    \item Tools: J2SE, Delphi, Rational ClearCase/ClearQuest, Vignette, Spring.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Earlier roles (condensed) ---
+\item{\cventry{2006--2008}{Java Developer}{TIVIT / Synapsis (PSA Peugeot Citroën, Edelnor, Codensa)}{Buenos Aires, Argentina}{}{\vspace{1pt}
+\begin{itemize}
+    \item Tech lead of the Argentina team for PSA Peugeot Citroën (Paris HQ coordination); web apps with JSF/Spring/Hibernate and PL/SQL.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,15 +147,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+\item{\cventry{1997--2016}{Engineer's degree, Systems Engineering}{Universidad Tecnológica Nacional (UTN)}{Buenos Aires, Argentina}{}{}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{1997--2009}{Analyst, Information Systems}{Universidad Tecnológica Nacional (UTN)}{Buenos Aires, Argentina}{}{}}
+
+\vspace{3pt}
+
+\item{\cventry{2019--2020}{Ontological Coaching / Leadership}{CAYZEN Global}{Buenos Aires, Argentina}{}{}}
 
 \end{itemize}
 
@@ -133,27 +166,17 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Spanish (native), English (professional working), French (elementary).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CERTIFICATIONS
 % ============================================================
 
-\section{Publications}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Scrum: Roles; Google Cloud Skill Badges (Serverless on Cloud Run, Cloud Networking, Serverless with Firebase).
 \end{itemize}
 
 % ============================================================

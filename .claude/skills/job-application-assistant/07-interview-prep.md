@@ -35,6 +35,51 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
+## STAR Candidates (Complete Manually)
+
+<!-- Populated by /setup (Path A) from LinkedIn experience. These are STUBS — fill in the -->
+<!-- Situation / Task / Action / Result with real specifics before using them in interviews. -->
+
+### Leading 40+ developers at Flux IT
+**Source:** LinkedIn - Technical Leader, Flux IT (2021-2023)
+**What happened:** Led 40+ developers across Java backend, native mobile, and React web for a single client, driving quality standards and defining career paths.
+**Why it matters:** Answers leadership, scaling teams, mentoring, conflict/quality, and "biggest challenge" questions.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Microservices architecture for Banco Galicia
+**Source:** LinkedIn - Team Technical Leader, Flux IT (2019-2021)
+**What happened:** Led a 4-dev team building microservices (OpenShift, Java, Spring Boot) for a new architecture of the bank's customer-service channels.
+**Why it matters:** Answers architecture decisions, technical trade-offs, delivering in a regulated/enterprise context.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### iOS homebanking app (project Galaxia)
+**Source:** LinkedIn - iOS Tech Lead, Banco Galicia (2016-2017)
+**What happened:** Technical reference for the iOS team building the Banco Galicia homebanking app in Swift; coordinated a 4-person team, planning and prioritization.
+**Why it matters:** Answers technical ownership, mobile delivery, working with omnichannel/REST integrations at scale.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Building CerveChat iOS from scratch
+**Source:** LinkedIn - CerveChat (2018-2021)
+**What happened:** Started the CerveChat iOS app from zero, later growing it with a team.
+**Why it matters:** Answers initiative, ownership, building something end-to-end, working outside a corporate structure.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"

@@ -1,76 +1,93 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+<!-- Populated by /setup (Path A) for Alejandro D'Ambrosio -->
+<!-- Profile: Solutions/Software Architect, 100% remote required, no relocation, no IT consultancies, USD preferred -->
+
+## IMPORTANT: Portal tooling note
+
+The built-in portal-search CLIs shipped with this framework target the **Danish** job market
+(Jobindex, Jobbank, Jobdanmark, Jobnet) and are **not applicable** to this profile. Use the
+Google `site:` searches and LinkedIn queries below instead, or run `/add-portal` to generate a
+search skill for an Argentine / LATAM / global-remote board.
 
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+Primary (remote-focused, global + LATAM):
+- **linkedin.com/jobs** - filter to Remote; Argentina, LATAM, and global postings
+- **getonbrd.com** (Get on Board) - LATAM tech roles, many remote/USD
+- **weworkremotely.com** - global remote
+- **remoteok.com** - global remote tech
+- **remotive.com** - global remote tech
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for target product/service companies
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Every query should include a remote qualifier (`remote` / `remoto`) since 100% remote is required.
+Exclude IT consultancies/staffing where the site allows it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Solutions / Software Architect (primary direction)
 
-These match your strongest and most desired career direction.
-
-```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Strongest and most desired career direction.
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Solutions Architect" remote
+site:linkedin.com/jobs "Software Architect" remote
+site:getonbrd.com "Solutions Architect" OR "Software Architect" remote
+"Solutions Architect" remote Java (USD OR "US dollars") -consultancy
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Tech Lead / Staff Engineer
 
-Adjacent roles you could pivot into.
-
-```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Technical leadership roles that stay hands-on.
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Tech Lead" remote Java
+site:linkedin.com/jobs "Staff Engineer" remote
+site:getonbrd.com "Tech Lead" OR "Staff Engineer" remote
+"Staff Engineer" OR "Technical Lead" remote backend (USD OR LATAM)
 ```
 
-## Location Filter
+### Priority 3: Domain-strong backend roles (fintech / enterprise Java)
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Roles that lean on his banking/fintech and enterprise-Java depth.
+
+```
+site:linkedin.com/jobs "Senior Java" remote fintech
+site:linkedin.com/jobs "Java" "Spring Boot" remote architect
+"backend architect" remote (fintech OR banking) Java
+```
+
+### Priority 4: Senior Java Developer (wider net / fallback)
+
+Broader senior IC roles as a fallback.
+
+```
+site:linkedin.com/jobs "Senior Java Developer" remote
+site:weworkremotely.com Java senior
+site:remoteok.com java architect OR "tech lead"
+```
+
+## Location / Remote Filter
+
+Since 100% remote is a hard requirement and relocation is off the table, filter on **work mode**,
+not commute distance:
+
+- **100% remote (from Argentina / LATAM):** PASS
+- **Global remote paying in USD:** PASS + flag as a plus
+- **Hybrid or any required on-site presence:** REJECT
+- **Requires relocation:** REJECT
+- **Employer is an IT consultancy / staffing firm:** REJECT (prefers internal role at a product or service company)
 
 ## Date Filter
 
-Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
+Only include jobs posted within the last 14 days, or with an application deadline that has not yet
+passed. If a posting date cannot be determined, include it but flag as "date unknown".
 
 ## Adapting Queries
 
-If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+If the user specifies a focus area, select queries from the matching category and also generate 2-3
+custom queries for that focus. For example:
+- "/scrape architect" -> Priority 1 queries + custom architecture-specific queries
+- "/scrape fintech" -> Priority 3 queries + custom fintech-specific queries

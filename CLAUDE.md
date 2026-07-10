@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Alejandro D'Ambrosio
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Alejandro D'Ambrosio, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,73 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Alejandro D'Ambrosio
+- **Location:** Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina (requires 100% remote; no relocation)
+- **Languages:** Spanish (native), English (professional working), French (elementary)
+- **Status:** Employed - Solutions Architect at Flux IT
+- **LinkedIn headline:** "I help software development teams to build IT excellent solutions"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Engineer's degree in Systems Engineering** (1997-2016) - Universidad Tecnológica Nacional (UTN)
+- **Analyst in Information Systems** (1997-2009) - Universidad Tecnológica Nacional (UTN)
+- **Ontological Coaching / Leadership** (2019-2020) - CAYZEN Global
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Solutions Architect** (June 2023 - Present) - **Flux IT** (Buenos Aires)
+  - Solution architecture across web, backend, and native/hybrid mobile for enterprise clients
+  - Architecture, research, innovation, team building, and software quality
+- **Technical Leader** (April 2021 - June 2023) - **Flux IT** (Buenos Aires)
+  - Led 40+ developers (Java backend, native iOS/Android, React web) for a single client
+  - Set quality standards, defined developers' career paths, supported client team leaders
+- **Team Technical Leader** (February 2019 - April 2021) - **Flux IT** (Buenos Aires)
+  - Led a 4-dev team building microservices (OpenShift, Java, Spring Boot) for Banco Galicia's customer-service channels
+- **iOS Tech Lead & Software IT Architect** (August 2016 - January 2019) - **Flux IT** (Buenos Aires)
+  - Technical reference for iOS team building Banco Galicia homebanking app (Swift, REST/OData, omnichannel); mobile architecture and delivery guidelines
+- **Java Developer** (December 2011 - April 2016) - **Flux IT** (Buenos Aires)
+  - Enterprise Java web/BPM for OSDE (Spring, Hibernate, Struts, Drools, DB2)
+- Earlier: Globant, OSDE, TIVIT, Synapsis, MRT SA (2006-2011 Java; see 01-candidate-profile.md for full history)
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Software/solution architecture, technical leadership, Java (Spring/Spring Boot/Hibernate), Swift/iOS native, Agile (Scrum/Kanban)
+- **Secondary:** React, Node.js/Express, Ionic (hybrid mobile), CI/CD, quality tooling
+- **Domain:** Fintech/banking (Banco Galicia), healthcare (OSDE), enterprise software delivery
+- **Software:** OpenShift, Google Cloud (Cloud Run, Firebase), DB2/relational SQL, MongoDB, JIRA, Git/SVN
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Scrum: Roles**
+- **Develop Serverless Applications on Cloud Run** - Google Cloud Skill Badge
+- **Set Up a Google Cloud Network** - Google Cloud Skill Badge
+- **Develop Serverless Apps with Firebase** - Google Cloud Skill Badge
+- **Solar Energy**
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None on record.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None on record.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred from LinkedIn About - no formal assessment on record. See 02-behavioral-profile.md. -->
+- **Leadership & continuous improvement** - proactive leader focused on making teams and products better
+- **Curiosity / lifelong learning** - always learning, researching, and encouraging the team to grow
+- **Strengths:** technical leadership, architecture, mentoring, collaboration, problem-solving
+- **Growth areas:** [self-assess and add]
+- **Thrives in:** collaborative, Agile, autonomous environments with room to research, build PoCs, and automate
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Designing architecture, researching new technologies, and building PoCs
+- Mentoring and solving complex technical problems
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Product companies: [add specific targets]
+- Service companies (non-consultancy): [add specific targets]
+- International remote roles paying in USD
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Not 100% remote (100% remote is non-negotiable)
+- Requires relocation
+- IT consultancy / staffing employer (prefers working internally at a product or service company)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

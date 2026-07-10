@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Software/solution architecture, technical leadership & team management, Java (Spring/Spring Boot/Hibernate), Swift/iOS native development, Agile (Scrum/Kanban)
+**Moderate match areas:** React & frontend web, Node.js/Express, Google Cloud (Cloud Run, Firebase), OpenShift, NoSQL (MongoDB/Firebase), hybrid mobile (Ionic), CI/CD
+**Weak match areas:** [SKILLS_YOU_LACK — refine as you target roles: e.g. data science/ML, Kotlin/Android native, cloud-native on AWS/Azure]
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Solutions/software architecture, technical leadership (led 40+ devs), enterprise Java, native iOS (banking/homebanking), Agile delivery for large clients (Banco Galicia, OSDE)
+**Moderate:** Frontend web (React), cloud (GCP/OpenShift), fintech/banking domain, mobile team leadership
+**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE — refine per target, e.g. formal people-management outside project context, non-software domains]
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
+- 100% remote: PASS (this is the requirement)
+- Hybrid / requires any on-site presence: FAIL (100% remote is non-negotiable)
 - Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- IT consultancy / staffing employer: FAIL (prefers internal role at product/service company)
+- International remote role paying USD: PASS + FLAG as a plus
+- Frequent international travel: FAIL (conflicts with 100% remote)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +65,24 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Grow deeper in software/solution architecture and technical leadership
+- Own architecture and technical direction (Solutions/Software Architect, Staff Engineer, Tech Lead)
+- Stay hands-on with research, PoCs, and solving complex technical problems
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: designing architecture, mentoring, researching new technologies, building PoCs, solving complex problems
+- Tasks that drain: repetitive manual work, administrative/bureaucratic tasks, environments with no time to automate
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: prefers salary in USD
+- **Flexibility**: requires 100% remote (non-negotiable); no relocation
+- **Professional development**: values autonomy, room to research/innovate and automate; growth toward architecture/leadership
+
+**Deal-breakers (auto-fail):**
+- Not 100% remote → FAIL
+- Requires relocation → FAIL
+- Employer is an IT consultancy / staffing firm → FAIL (prefers working internally at a product or service company)
 
 ### 6. Salary Benchmark (Optional)
 
