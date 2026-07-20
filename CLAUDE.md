@@ -12,6 +12,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Alejandro D'Ambrosio
+- **Phone:** +54 9 11 5175 8480
 - **Location:** Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina (requires 100% remote; no relocation)
 - **Languages:** Spanish (native), English (professional working), French (elementary)
 - **Status:** Employed - Solutions Architect at Flux IT
@@ -77,6 +78,16 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - Not 100% remote (100% remote is non-negotiable)
 - Requires relocation
 - IT consultancy / staffing employer (prefers working internally at a product or service company)
+- Compensation clearly below USD 5,000/month (personal salary floor; flag before applying)
+
+### Career Direction (priority order)
+**Primary pivot: toward people-focused leadership (less hands-on code).** Leverages Ontological Coaching (CAYZEN) + leadership of 40+ developers. Technical depth is a differentiator and credibility base, not the day-to-day.
+1. **Engineering Manager** (primary bet — leading and growing dev teams; people, communication, coordination, team health)
+2. Delivery Manager / Delivery Lead (secondary track)
+3. Agile Coach / Team Coach (secondary — Ontological Coaching as the core asset)
+4. Technical Program Manager; Head of Engineering / Director (stretch)
+
+**Discarded:** Staff Engineer and pure-IC technical tracks (opposite vector — deep code, minimal people).
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

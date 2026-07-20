@@ -5,7 +5,7 @@
 ## Identity
 - **Name:** Alejandro D'Ambrosio
 - **Location:** Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina
-- **Phone:** [YOUR_PHONE — not in LinkedIn export, add manually]
+- **Phone:** +54 9 11 5175 8480
 - **Email:** alejandro.dambrosio@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/aledambrosio
 - **GitHub:** https://github.com/aledambrosio

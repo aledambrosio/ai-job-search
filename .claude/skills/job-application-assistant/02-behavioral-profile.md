@@ -36,10 +36,13 @@ Alejandro presents as a **collaborative technical leader** pattern: driven by co
 ## Mapping to Job Posting Language
 
 When a job posting mentions these, it's a **strong behavioral fit**:
+- People management, 1:1s, career development, growing engineers
+- Team health, psychological safety, engineering culture
+- Coaching, facilitation, communication, coordination (Ontological Coaching is a direct asset)
 - Technical leadership, mentoring, team building
 - Continuous improvement, engineering excellence, quality culture
 - Agile / Scrum / Kanban, collaborative teams
-- Architecture ownership, cross-functional collaboration
+- Cross-functional collaboration, stakeholder communication
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
 - Rigid top-down / waterfall processes with no room to improve them
@@ -52,7 +55,8 @@ When a job posting mentions these, flag as **potential friction** (not deal-brea
 - Values leadership that supports team health and professional development.
 
 ## Using This in Applications
-- **Cover letters:** lead with technical leadership + continuous improvement, backed by the 40+ dev leadership at Flux IT.
-- **CV:** emphasize architecture ownership, team leadership scale, and quality culture.
-- **Interviews:** use the STAR candidates in `07-interview-prep.md` (team leadership, microservices, iOS homebanking).
+- **Career direction:** primary target is now **Engineering Manager / people-focused leadership** (secondary: Delivery Manager, Agile Coach, TPM). Ontological Coaching (CAYZEN) + leadership of 40+ devs is the differentiator; technical depth is credibility, not the pitch.
+- **Cover letters:** lead with people leadership, coaching, and team growth, backed by the 40+ dev leadership at Flux IT and defining developers' career paths. Use technical depth to establish trust, not as the headline.
+- **CV:** emphasize team leadership scale, career-path definition, team health, and coaching; keep architecture/technical depth as supporting credibility.
+- **Interviews:** use the STAR candidates in `07-interview-prep.md`, reframing them toward the **people/leadership** angle (how you grew people, handled conflict, built culture), not just the technical outcome.
 - **Don't overstate:** no formal behavioral assessment exists — do not claim a specific profile type until one is completed.

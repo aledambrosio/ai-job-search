@@ -64,25 +64,28 @@ Does this role advance career goals and contain tasks that energize?
 | 40-59 | Decent job but doesn't build toward career goals |
 | 0-39 | Dead end or backwards step |
 
-**Career goals:**
-- Grow deeper in software/solution architecture and technical leadership
-- Own architecture and technical direction (Solutions/Software Architect, Staff Engineer, Tech Lead)
-- Stay hands-on with research, PoCs, and solving complex technical problems
+**Career goals (in priority order) — people-focused leadership pivot:**
+- **PRIMARY — Engineering Manager:** lead and grow software teams, focusing on people, communication, coordination, and team health
+- **Secondary track (people-first, less code):** Delivery Manager / Delivery Lead, Agile Coach / Team Coach, Technical Program Manager, Head of Engineering / Director
+- Apply and deepen **Ontological Coaching** (CAYZEN): leadership, communication, facilitation, developing people
+- Technical depth (18+ yrs architecture, Java, iOS) is now a **differentiator and credibility base**, not the day-to-day work
+- **Discarded:** Staff Engineer and pure-IC technical tracks (opposite vector — deep code, minimal people)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: designing architecture, mentoring, researching new technologies, building PoCs, solving complex problems
-- Tasks that drain: repetitive manual work, administrative/bureaucratic tasks, environments with no time to automate
+- Tasks that energize: developing and coaching people, leading teams, communication and coordination, mentoring, building team health and engineering culture; architecture and PoCs are now a supporting interest, not the core
+- Tasks that drain: repetitive manual work, purely administrative/bureaucratic tasks, environments with no room to lead, coach, or grow people
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: prefers salary in USD
+- **Security**: salary in USD, **minimum USD 5,000/month** (personal floor; postings clearly below this are a red flag)
 - **Flexibility**: requires 100% remote (non-negotiable); no relocation
-- **Professional development**: values autonomy, room to research/innovate and automate; growth toward architecture/leadership
+- **Professional development**: values autonomy and room to lead; growth toward Engineering Manager and people-focused leadership, applying Ontological Coaching
 
 **Deal-breakers (auto-fail):**
 - Not 100% remote → FAIL
 - Requires relocation → FAIL
 - Employer is an IT consultancy / staffing firm → FAIL (prefers working internally at a product or service company)
+- Compensation clearly below USD 5,000/month → FLAG (discuss before applying; not an automatic fail if the range is unstated)
 
 ### 6. Salary Benchmark (Optional)
 
@@ -143,10 +146,20 @@ Present the evaluation as:
 ```
 
 ## Weighting
+
+**Default (technical / IC roles):**
 - Technical Skills: 30%
 - Experience Match: 25%
 - Behavioral Fit: 15%
 - Career Alignment: 30%
+
+**People-leadership roles (Engineering Manager, Delivery Manager, Agile Coach, etc.) — use this instead:**
+For these, leadership/behavioral fit and people-management experience predict success far better than raw
+technical-skills coverage. Reweight:
+- Behavioral / Leadership Fit: 30%
+- Career Alignment: 30%
+- Experience Match (people leadership, coaching, team building): 25%
+- Technical Skills: 15% (a credibility floor, not the core — do not penalize heavily for a stack gap)
 
 (Location is pass/fail, not weighted)
 

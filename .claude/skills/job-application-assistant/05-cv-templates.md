@@ -106,7 +106,16 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- Populated by /setup (Path A) from the LinkedIn profile. Tailor per posting. -->
-**For Solutions / Software Architect roles:**
+<!-- PRIMARY TARGET is now Engineering Manager / people-focused leadership. The Architect and iOS -->
+<!-- statements below are secondary (kept for the fallback tracks). Lead with the EM statement. -->
+
+**For Engineering Manager roles (PRIMARY target — people-first):**
+> Engineering leader who has led and grown teams of 40+ developers across Java, mobile, and web, defining career paths, running 1:1s, and safeguarding team health. Trained in Ontological Coaching (CAYZEN), I lead through communication, coordination, and developing people, backed by 18+ years of hands-on engineering that earns technical trust without needing to own the code myself. I build teams that keep learning and deliver with autonomy, and I raise the quality and engineering culture around me.
+
+**For Delivery Manager / Agile Coach / Technical Program Manager roles (secondary track):**
+> Team-focused leader who coordinates delivery across engineering, product, and stakeholders. I combine Agile facilitation (Scrum/Kanban) and Ontological Coaching (CAYZEN) with a deep engineering background, so I can unblock teams, sharpen communication, and keep complex, multi-team work moving. I have led 40+ developers and supported team leaders on team health, technical direction, and continuous improvement.
+
+**For Solutions / Software Architect roles (technical fallback):**
 > Solutions Architect with 18+ years building enterprise software across backend, web, and native mobile. I design architectures that hold up in production, drive engineering quality across teams, and have led delivery for large financial clients including Banco Galicia and OSDE. I bring deep Java and iOS expertise, cloud experience on Google Cloud and OpenShift, and a track record of turning research and new ideas into shipped software.
 
 **For Technical Lead / Engineering Manager roles:**
